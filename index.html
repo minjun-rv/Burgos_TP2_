@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Taylor Swift</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/archivo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/archivo.css">
 </head>
+
 <body>
-  
+
   <header class="bg-dark">
     <div class="container d-flex justify-content-between align-items-center py-2">
       <!-- LOGO  -->
@@ -22,93 +25,90 @@
         <a href="premios.html" class="text-light text-decoration-none">Premios</a>
 
         <!-- Tours + subsección -->
-        <div class="dropdown">
-          <a class="text-light text-decoration-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-            Tours
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Giras
           </a>
           <ul class="dropdown-menu bg-dark">
+            <li><a class="dropdown-item text-light" href="tours.html">Tour</a></li>
             <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
           </ul>
-        </div>
 
-        <!-- Discografía + subsección -->
-        <div class="dropdown">
-          <a class="text-light text-decoration-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-            Discografía
+          <!-- Discografía + subsección -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Musica
           </a>
           <ul class="dropdown-menu bg-dark">
+            <li><a class="dropdown-item text-light" href="discografia.html">Discografias</a></li>
             <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a></li>
           </ul>
-        </div>
-
-        <a href="contacto.html" class="text-light text-decoration-none">Contacto</a>
       </nav>
     </div>
   </header>
 
-  <!-- MAIN -->
   <main class="container my-5">
     <section class="text-center mb-5">
       <h1 class="display-4 fw-bold">Taylor Swift</h1>
-      <p class="lead">En esta página encontrarás toda la información sobre la carrera de <strong>Taylor Swift</strong>, 
-    desde sus logros más importantes hasta los desafíos que enfrentó en la industria musical. 
-    Esta sección funciona como una introducción general a su recorrido artístico.</p>
+      <p class="lead">Taylor Swift es una cantautora estadounidense que ha logrado consolidarse como un icono cultural
+        del siglo XXI gracias a sus composiciones profundamente personales, su capacidad de reinvención y su dominio de
+        los escenarios internacionales. Desde su debut en 2006 hasta la actualidad, ha incursionado por diferentes
+        estilos musicales <strong>del country al pop, pasando por el folk y el sintetizador-pop</strong> y ha alcanzado
+        un éxito
+        arrollador tanto en ventas como en giras. Su discografía refleja no sólo un catálogo de álbumes exitosos, sino
+        un viaje artístico que evoluciona con cada era.
+
+        En este sitio exploramos su discografía, sus versiones regrabadas (“Taylor’s Version”), sus giras memorables y
+        el impacto que ha generado en la música, la cultura fan y más allá.</p>
     </section>
-    
-    <!-- bloques de redes sociales -->
-<section class="redes">
-  <!-- Spotify -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm text-center">
-      <div class="card-body d-flex flex-column justify-content-center align-items-center" style="gap: 1rem;">
-        <!-- Logo oficial de Spotify -->
-        <img src="img/spotify.png" alt="Logo Spotify" width="48" height="48">
-        <h5 class="card-title">Spotify</h5>
-        <p class="card-text">Escuchá todos los álbumes de Taylor Swift.</p>
-        <a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x" target="_blank" class="btn btn-success w-100 mt-auto">Abrir en Spotify</a>
+
+    <!-- cartas de redes sociales -->
+    <section class="card">
+      <!-- Spotify -->
+      <div class="card" style="width: 15rem;">
+        <img src="img/spotify.png" class="card-img-top" alt="logo de spotify">
+        <div class="card-body">
+          <h5 class="card-title">Spotify</h5>
+          <p class="card-text">Escuchá todos los álbumes de Taylor Swift.</p>
+          <a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x" class="btn btn-primary">Abrir en Spotify</a>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <!-- YouTube -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm text-center">
-      <div class="card-body d-flex flex-column justify-content-center align-items-center" style="gap: 1rem;">
-        <!-- Logo oficial de YouTube -->
-        <img src="img/youtube.png" alt="Logo YouTube" width="48" height="48">
-        <h5 class="card-title">YouTube</h5>
-        <p class="card-text">Videos oficiales, actuaciones en vivo y más.</p>
-        <a href="https://www.youtube.com/@taylorswift" target="_blank" class="btn btn-danger w-100 mt-auto">Abrir en YouTube</a>
+      <!-- YouTube -->
+      <div class="card" style="width: 15rem;">
+        <img src="img/youtube.png" class="card-img-top" alt="logo de youtube">
+        <div class="card-body">
+          <h5 class="card-title">YouTube</h5>
+          <p class="card-text">Videos oficiales, actuaciones en vivo y más.</p>
+          <a href="https://www.youtube.com/@taylorswift" class="btn btn-primary">Abrir en YouTube</a>
+        </div>
       </div>
-    </div>
-  </div>    
 
-  <!-- Instagram -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm text-center">
-      <div class="card-body d-flex flex-column justify-content-center align-items-center" style="gap: 1rem;">
-        <!-- Logo oficial de Instagram -->
-        <img src="img/instagram.png" alt="Logo Instagram" width="48" height="48">
-        <h5 class="card-title">Instagram</h5>
-        <p class="card-text">Seguí a Taylor Swift en su cuenta oficial.</p>
-        <a href="https://www.instagram.com/taylorswift/" target="_blank" class="btn btn-pink w-100 mt-auto" style="background-color: #E1306C; color: white;">Abrir en Instagram</a>
+      <!-- Instagram -->
+      <div class="card" style="width: 15rem;">
+        <img src="img/instagram.png" class="card-img-top" alt="logo de instagram">
+        <div class="card-body">
+          <h5 class="card-title">Instagram</h5>
+          <p class="card-text">Seguí a Taylor Swift en su cuenta oficial.</p>
+          <a href="https://www.instagram.com/taylorswift/" class="btn btn-primary">Abrir en Instagram</a>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-  <!-- FOOTER -->
-  <footer class="bg-dark text-light py-4 mt-5">
-    <div class="container text-center">
-      <p>MovimientoSwifties@gmail.com</p>
-      <p>
-        <a href="sobremi.html" class="text-light">Desarolladora</a> | 
-        <a href="clubdefans.html" class="text-light">Swifties</a>
-      </p>
-    </div>
-  </footer>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container text-center">
+        <p>¡Para contactarse con nosotros, escribir a Swifties@gmail.com!</p>
+        <p>
+          <a href="sobremi.html" class="text-light">Desarolladora</a> |
+          <a href="clubdefans.html" class="text-light">Swifties</a>
+        </p>
+      </div>
+    </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
