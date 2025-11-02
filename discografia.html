@@ -2,8 +2,8 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discografia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,39 +12,67 @@
 
 <body>
     <header class="bg-dark">
-        <div class="container d-flex justify-content-between align-items-center py-2">
-            <!-- LOGO  -->
-            <img src="img/logo.png" alt="Logo Taylor Swift" height="40">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container d-flex justify-content-between align-items-center py-2">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo Taylor Swift">
+                </a>
 
-            <!-- MENU -->
-            <nav class="d-flex gap-3">
-                <a href="index.html" class="text-light text-decoration-none">Home</a>
-                <a href="eras.html" class="text-light text-decoration-none">Eras</a>
-                <a href="premios.html" class="text-light text-decoration-none">Premios</a>
+                <!-- Botón para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <!-- Tours + subsección -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Giras
-                    </a>
-                    <ul class="dropdown-menu bg-dark">
-                        <li><a class="dropdown-item text-light" href="tours.html">Tour</a></li>
-                        <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
+                <!-- MENU -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="eras.html">Eras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="premios.html">Premios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="clubdefans.html">Swifties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="sobremi.html">Desarolladora</a>
+                        </li>
+
+                        <!-- Giras + subsección -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Giras
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="tours.html">Tour</a></li>
+                                <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Musica + subsección -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Musica
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="discografia.html">Discografias</a></li>
+                                <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-
-                    <!-- Discografía + subsección -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Musica
-                    </a>
-                    <ul class="dropdown-menu bg-dark">
-                        <li><a class="dropdown-item text-light" href="discografia.html">Discografias</a></li>
-                        <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a></li>
-                    </ul>
-            </nav>
-        </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -90,20 +118,13 @@
                 <img style="width: 15%; float: right; margin-right: 4em;" src="img/record.jpg" alt="logo republic">
             </div>
         </article>
-
-        <!-- FOOTER -->
-        <footer class="bg-dark text-light py-4 mt-5">
-            <div class="container text-center">
-                <p>¡Para contactarse con nosotros, escribir a Swifties@gmail.com!</p>
-                <p>
-                    <a href="sobremi.html" class="text-light">Desarolladora</a> |
-                    <a href="clubdefans.html" class="text-light">Swifties</a>
-                </p>
-            </div>
-        </footer>
-
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <p>¡Para contactarse con nosotros, escribir a <a href="mailto:jbfans@gmail.com">Swifties@gmail.com!</p>
+        </div>
+    </footer>
 </body>
 
 </html>
