@@ -1,1 +1,411 @@
-/* height="40" */
+/* ===== REGLAS GENERALES ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b1e36;
+    /* violeta oscuro elegante */
+    color: #fceffb;
+    /* blanco rosado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header.bg-dark {
+    height: 70px;
+    background-color: #4a2c63 !important;
+    /* violeta medio */
+}
+
+/* CONTENEDOR */
+.navbar {
+    height: 100%;
+    padding: 0 1rem;
+}
+
+/* ===== LOGO ===== */
+.navbar-brand img {
+    height: 70px;
+}
+
+/* ===== PAGINA 1: HOME ===== */
+/* ===== PÁGINA 5: DESARROLLADORA ===== */
+.text-center h1 {
+    font-weight: 900;
+    color: #f3b6d3;
+    /* rosa brillante */
+    font-size: 2.8rem;
+}
+
+.text-center p {
+    color: #fceffb;
+    font-size: 1.1rem;
+    margin: 0 auto 2rem;
+}
+
+.card {
+    background-color: #5a3a6e;
+    /* violeta medio */
+    border: none;
+}
+
+.card-title {
+    color: #f3b6d3;
+    /* rosa pastel */
+}
+
+.card-text {
+    color: #fceffb;
+    /* texto claro */
+}
+
+/* IMAGENES */
+/* SPOTIFY */
+.card-img-top1 {
+    width: 30%;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* YOUTUBE */
+.card-img-top2 {
+    width: 36%;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* INSTAGRAM */
+.card-img-top3 {
+    width: 35%;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    background-color: #d49acb;
+    /* rosa fuerte */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #fceffb;
+    /* blanco rosado */
+    color: #2b1e36;
+    /* contraste elegante */
+}
+
+/* ===== PAGINA 2: ERAS (GALERÍA) ===== */
+/* TEXTO */
+.carousel-item h3 {
+    color: #f3b6d3;
+    /* rosa pastel */
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.carousel-item p {
+    text-align: center;
+    color: #fceffb;
+}
+
+/* IMAGENES */
+.carousel-item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+}
+
+/* ===== PAGINA 3: PREMIOS ===== */
+/* IMAGENES */
+.premios img {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.premios {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+/* VIDEO */
+.premios video {
+    width: 120%;
+    max-width: 570px;
+    /* tamaño máximo en escritorio */
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+/* ===== PAGINA 4: SWIFTIES (FORMULARIO) ===== */
+#formulario {
+    background-color: #5a3a6e;
+    padding: 2rem;
+    border: 12px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#formulario .form-label {
+    color: #f3b6d3;
+}
+
+#formulario .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #f3b6d3;
+    color: white;
+}
+
+#formulario .form-control::placeholder {
+    color: #ddd;
+}
+
+#btn-enviar {
+    background-color: #d49acb;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#btn-enviar:hover {
+    background-color: #fceffb;
+    color: #2b1e36;
+}
+
+#pulseras {
+    display: block;
+    margin: 2rem auto;
+    max-width: 300px;
+    opacity: 0.9;
+}
+
+/* ===== PÁGINA 6: GIRAS ===== */
+/* SOLO VOY A COMODARLOS EL COLOR Y ESO YA SE HIZO EN HOME  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ===== PÁGINA 7: ERAS TOUR ===== */
+/* GALERIA DE FOTOS */
+.erastour img {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.erastour {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+/* ===== PÁGINA 8: DISCOGRAFÍA ===== */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* BLOQUE + IMAGEN */
+.bloque-discografia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* TEXTO */
+.bloque-discografia .texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Imagen al lado del texto */
+.logo-discografia {
+    width: 400px;
+    height: auto;
+    border: 8px;
+}
+
+/* ===== PÁGINA 9: TAYLOR’S VERSION ===== */
+.regravados {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* TEXTO */
+.regravados h1 {
+    color: #f3b6d3;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* TEXTO BAJO */
+.regravados p {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* IMAGENES */
+.regravados img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* MODAL TEXTO */
+.modal-content {
+    color: #000000;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 1px;
+    margin-top: auto;
+    width: 100%;
+    background-color: #4a2c63;
+}
+
+footer p a {
+    color: #fceffb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #fceffb;
+}
+
+footer a:hover {
+    color: #f3b6d3;
+}
+
+footer a:active {
+    color: #d49acb;
+}
+
+footer a:visited {
+    color: #f3b6d3;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 780px) {
+
+    /* MENU HAMBURGUESA */
+    .buttom {
+        color: #ffffff;
+    }
+
+    /* FONDO */
+    #navbarNavDropdown {
+        background-color: #50204c;
+        padding: 1rem;
+        border-radius: 0 0 8px 8px;
+    }
+
+    /* TEXTO */
+    #navbarNavDropdown .nav-link,
+    #navbarNavDropdown .dropdown-item {
+        color: #ffffff;
+    }
+
+    /* TITULOS */
+    .text-center h1 {
+        font-size: 2rem;
+    }
+
+    /* PAGINA 2 */
+    .carousel-item img {
+        width: 90%;
+        max-width: 180px;
+    }
+
+    /* PAGINA 3 */
+    .premios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .premios video {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    /* PAGINA 4*/
+    #formulario {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    /* IMAGEN*/
+    #pulseras {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    /* PAGINA 5 */
+    /* IMAGENES */
+    .logo-discografia {
+        width: 250px;
+        height: 250px;
+        margin: 1rem auto;
+    }
+
+    /* PAGINA 8 */
+    .bloque-discografia {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-discografia {
+        width: 200px;
+        margin: 1rem auto;
+    }
+
+    /* PAGINA 9 */
+    .regravados .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regravados .col-lg-3,
+    .regravados .col-md-6,
+    .regravados .col-sm-6 {
+        width: 100%;
+        max-width: 220px;
+        margin: 1rem auto;
+    }
+
+    /* FOOTER */
+    footer p {
+        padding: 0.8rem;
+    }
+}
