@@ -17,10 +17,9 @@ body {
 /* ===== HEADER ===== */
 header.bg-dark {
     height: 70px;
-    background-color: #4a2c63 !important;
-    /* violeta medio */
+    background-color: #4a2c63 ;
+    
 }
-
 /* CONTENEDOR */
 .navbar {
     height: 100%;
@@ -320,11 +319,6 @@ footer a:visited {
 @media (max-width: 780px) {
 
     /* MENU HAMBURGUESA */
-    /* Ícono del menú hamburguesa en móvil: BLANCO */
-    .navbar-toggler-icon {
-        background-image: url("image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
     /* FONDO */
     #navbarNavDropdown {
         background-color: #50204c;
