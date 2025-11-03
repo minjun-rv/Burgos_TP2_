@@ -109,17 +109,17 @@ header.bg-dark {
 
 /* ===== PAGINA 2: ERAS (GALERÍA) ===== */
 /* TEXTO */
-.carousel-item h3 {
+.carousel-item h1 {
     color: #f3b6d3;
-    /* rosa pastel */
     text-align: center;
-    margin-top: 3rem;
     font-weight: bold;
 }
 
 .carousel-item p {
+    margin-top: 3rem;
     text-align: center;
     color: #fceffb;
+     font-size: 1.2rem;
 }
 
 /* IMAGENES */
@@ -320,8 +320,9 @@ footer a:visited {
 @media (max-width: 780px) {
 
     /* MENU HAMBURGUESA */
-    .buttom {
-        color: #ffffff;
+    /* Ícono del menú hamburguesa en móvil: BLANCO */
+    .navbar-toggler-icon {
+        background-image: url("image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
 
     /* FONDO */
