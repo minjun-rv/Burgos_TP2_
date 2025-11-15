@@ -47,24 +47,22 @@
 
                         <!-- Giras + subsección -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Giras
+                            <a class="nav-link dropdown-toggle text-light" href="tours.html" role="button"
+                                aria-expanded="false">
+                                Tours
                             </a>
                             <ul class="dropdown-menu bg-dark">
-                                <li><a class="dropdown-item text-light" href="tours.html">Tour</a></li>
                                 <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
                             </ul>
                         </li>
 
                         <!-- Musica + subsección -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Musica
+                            <a class="nav-link dropdown-toggle text-light" href="discografia.html" role="button"
+                                aria-expanded="false">
+                                Discografia
                             </a>
                             <ul class="dropdown-menu bg-dark">
-                                <li><a class="dropdown-item text-light" href="discografia.html">Discografias</a></li>
                                 <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a>
                                 </li>
                             </ul>
@@ -101,12 +99,24 @@
     <!-- formulario -->
     <div id=formulario class="formulario">
         <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Coloca tu Nombre y Apellido</label>
+            <input class="form-control" id="nombre" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Coloca tu Edad</label>
+            <input class="form-control" id="edad" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Coloca tu Pais</label>
+            <input class="form-control" id="pais" >
+        </div>
+        <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Coloca tu email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Coloca un cometario</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="comentario" rows="3"></textarea>
         </div>
         <button type="button" id="btn-enviar" class="btn btn-primary">Enviar</button>
     </div>
