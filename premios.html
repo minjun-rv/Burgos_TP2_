@@ -46,24 +46,24 @@
                         </li>
 
                         <!-- Giras + subsección -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="tours.html" role="button" 
-                aria-expanded="false">
-                Tours
-              </a>
-              <ul class="dropdown-menu bg-dark">
-                <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
-              </ul>
-            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="tours.html" role="button"
+                                aria-expanded="false">
+                                Tours
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="toursubs.html">Eras Tour</a></li>
+                            </ul>
+                        </li>
 
-            <!-- Musica + subsección -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="discografia.html" role="button" 
-                aria-expanded="false">
-                Discografia
-              </a>
-              <ul class="dropdown-menu bg-dark">
-                <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a>
+                        <!-- Musica + subsección -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="discografia.html" role="button"
+                                aria-expanded="false">
+                                Discografia
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="discografiasubs.html">Taylor’s Version</a>
                                 </li>
                             </ul>
                         </li>
@@ -119,19 +119,69 @@
         <!-- GALERIA DE FOTOS -->
         <section class="premios">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="img/premio1.jpeg" alt="premio1">
+
+                <!-- IMAGEN 1 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <img id="img1" src="img/premio1.jpeg" class="img-fluid rounded" alt="Premio 1">
+                    <p id="texto1" class="text-light mt-2 d-none">
+                        Taylor Swift gano el premio al "Video Revelacion del Año" en los CMT Music Awards.
+                    </p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="img/premio2.jpeg" alt="premio2">
-                    <img src="img/premio3.jpeg" alt="premio3">
+
+                <!-- IMAGEN 2 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <img id="img2" src="img/premio2.jpeg" class="img-fluid rounded" alt="Premio Billboard">
+                    <p id="texto2" class="text-light mt-2 d-none">
+                        Artista del Año en la 45° edicion de los CMT Music Awards.
+                    </p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="img/premio4.jpeg" alt="premio4">
-                    <img src="img/premio5.jpeg" alt="premio5">
+
+                <!-- IMAGEN 3 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="contenedor-foto">
+                        <img id="img3" src="img/premio3.jpeg" class="img-fluid rounded" alt="Premio MTV">
+                        <p id="texto3" class="text-light mt-2 d-none">
+                            Ganadora de 3 Premios Grammy por Album del Año, Mejor Album Vocal Pop por 1989 y Mejor Video
+                            Musical por "Bad Blood".
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="img/premio6.jpeg" alt="premio6">
+
+                <!-- IMAGEN 4 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="contenedor-foto">
+                        <img id="img4" src="img/premio4.jpeg" class="img-fluid rounded" alt="Premio Brit">
+                        <p id="texto4" class="text-light mt-2 d-none">
+                            Ganadora de 4 Premios Grammy por Album del Año por Fearless, Mejor Album del Año por
+                            Fearless, Mejor Cancion Country por "White Horse" y Mejor Intepretacion Vocal Country
+                            Fmenina por "White Horse".
+                        </p>
+                    </div>
+                </div>
+
+                <!-- IMAGEN 5 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="contenedor-foto">
+                        <img id="img5" src="img/premio5.jpeg" class="img-fluid rounded" alt="Premio Time">
+                        <p id="texto5" class="text-light mt-2 d-none">
+                            Ganadora de multiples premios en los Billboard Music Awards por Mejor Artista,
+                            Mejor Artista Femenina, Mejor Artista del Billboard 200, Mejor Artista Country
+                            Mejor Álbum del Billboard 200 por Red, Mejor Álbum Country por Red,
+                            Mejor Canción Country por "We Are Never Ever Getting Back Together".
+                        </p>
+                    </div>
+                </div>
+
+                <!-- IMAGEN 6 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="contenedor-foto">
+                        <img id="img6" src="img/premio6.jpeg" class="img-fluid rounded" alt="The Eras Tour">
+                        <p id="texto6" class="text-light mt-2 d-none">
+                            Obtuvo 9 premios en los MTV VMAs, siendo una de las máximas ganadoras de esa ceremonia por
+                            Video del Año,Canción del Año,Mejor Dirección, Mejor Cinematografía, Mejor Pop,
+                            Mejor Artista del Año, Show del Verano, Álbum del Año por Midnights, Mejor Efecto Visual.
+                        </p>
+                    </div>
                 </div>
 
                 <hr class="border border-dark border-3 opacity-75" style="margin-top: 4em;">
@@ -161,6 +211,7 @@
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/premios.js"></script>
 </body>
 
 </html>

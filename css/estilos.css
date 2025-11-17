@@ -228,18 +228,7 @@ h2 {
 
 /* ===== PÁGINA 7: ERAS TOUR ===== */
 /* GALERIA DE FOTOS */
-.erastour img {
-    width: 100%;
-    padding: 0.5em;
-}
-
-.erastour {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 3em;
-}
+/* se acomodaron solas ya que uso bootstrap */
 
 /* ===== PÁGINA 8: DISCOGRAFÍA ===== */
 .contenedor {

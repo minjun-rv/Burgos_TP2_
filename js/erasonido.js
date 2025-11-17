@@ -1,5 +1,5 @@
 let usuarioInteractuo = false;
-const carousel = document.getElementById('carouselExample');
+const carousel = document.getElementById ('carouselExample');
 
 
 // Activar audio al hacer clic en la primera imagen
