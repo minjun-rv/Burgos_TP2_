@@ -354,17 +354,8 @@ footer a:visited {
 
     /* PAGINA 2 */
     .carousel-item h1 {
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
-
-    .carousel-item img {
-        margin-bottom: 7rem;
-    }
-
-    .carousel-item p {
-        margin-bottom: 5rem;
-    }
-
     /* PAGINA 3 */
     .premios {
         flex-direction: column;
